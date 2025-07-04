@@ -1,0 +1,19 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi i am Manuel</h1>\r <h3 align=\"center\">student of developer full stack</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuXa-98/ARSpace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuXa-98/ARSpace/issues"
+  },
+  "homepage": "https://github.com/ManuXa-98/ARSpace#readme"
+}
