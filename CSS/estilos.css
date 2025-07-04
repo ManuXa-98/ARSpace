@@ -160,4 +160,123 @@ footer img {
   height: 20px;
 }
 
+.Cohetes h2 {
+  text-align: center;
+}
+.Cohetes .Cohete {
+  width: 100%;
+  height: 450px;
+}
+
+.HorariosH2 {
+  color: midnightblue;
+  text-decoration: underline;
+  text-decoration-style: double;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Horarios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.GridHorarios {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  column-gap: 2px;
+  row-gap: 2px;
+  padding: 4px;
+  background-color: black;
+}
+.GridHorarios .p {
+  text-align: center;
+}
+.GridHorarios .Llegadas-H {
+  text-align: end;
+}
+
+.GridHorarios > * {
+  background-color: gray;
+  padding: 8px;
+  margin: 0;
+}
+
+.base {
+  display: flex;
+  align-items: center;
+}
+.base .img {
+  max-width: 400px;
+  max-height: 400px;
+  box-sizing: border-box;
+}
+.base p {
+  text-align: left;
+}
+
+.interior-nave {
+  display: flex;
+  align-items: center;
+}
+.interior-nave .img {
+  order: 2;
+  width: 400px;
+  height: 400px;
+}
+
+.vista-luna {
+  display: flex;
+  align-items: center;
+}
+.vista-luna img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.Pasajes {
+  background-image: url(../img/Fondo-Pasajes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.Pasajes .pasaje1 {
+  background-color: aqua;
+  display: flex;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.Pasajes .pasaje1 .pasajesh2 {
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.Pasajes .pasaje1 .lista1 {
+  padding-left: 96px;
+}
+.Pasajes .pasaje2 {
+  background-color: aqua;
+  display: flex;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.Pasajes .pasaje2 .lista2 {
+  padding-left: 100px;
+}
+.Pasajes .pasaje3 {
+  background-color: aqua;
+  display: flex;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.Pasajes .pasaje3 .lista3 {
+  padding-left: 117px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
